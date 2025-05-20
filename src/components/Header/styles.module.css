@@ -1,9 +1,9 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100vw;
-  padding: 15px 0 15px 0;
+  padding: 15px 0;
   background-color: var(--light-blue);
 }
 
@@ -11,5 +11,4 @@
   display: flex;
   justify-content: space-between;
   width: 86%;
-  margin: 0 auto;
 }

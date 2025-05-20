@@ -29,4 +29,5 @@ h5 {
 
 button {
   cursor: pointer;
+  border: none;
 }
