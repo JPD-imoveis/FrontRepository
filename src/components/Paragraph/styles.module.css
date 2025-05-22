@@ -1,0 +1,27 @@
+p.light {
+  color: var(--light-font);
+}
+
+p.dark {
+  color: var(--dark-font);
+}
+
+p.bold {
+  font-weight: bold;
+}
+
+p.regular {
+  font-weight: 300;
+}
+
+p.center {
+  text-align: center;
+}
+
+p.left {
+  text-align: left;
+}
+
+p.right {
+  text-align: right;
+}

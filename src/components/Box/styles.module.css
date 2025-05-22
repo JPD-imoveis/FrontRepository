@@ -4,3 +4,11 @@
   justify-content: center;
   gap: 20px;
 }
+
+.box.column {
+  flex-direction: column;
+}
+
+.box.row {
+  flex-direction: row;
+}

@@ -1,0 +1,10 @@
+.serviceCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 270px;
+  border-radius: 10px;
+  background-color: var(--light-blue);
+}

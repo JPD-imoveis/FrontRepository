@@ -1,3 +1,7 @@
+h1 {
+  text-wrap: nowrap;
+}
+
 .h1 {
   font-size: 39px;
 }
