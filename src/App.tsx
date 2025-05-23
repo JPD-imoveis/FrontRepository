@@ -30,7 +30,7 @@ function App() {
       description: "Agende visitas e negocie diretamente pelo sistema.",
       Icon: HandshakeIcon
     }
-  ]
+  ];
 
   return (
     <>
@@ -84,6 +84,12 @@ function App() {
             })
           }
         </Box>
+        <Paragraph
+          text="© 2025 ImobiConnect. Todos os direitos reservados."
+          paragraphAlign="center"
+          weight="regular"
+          textColor="light" 
+        />
       </Main>
     </>
   );
