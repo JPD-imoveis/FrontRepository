@@ -7,4 +7,9 @@
   height: 270px;
   border-radius: 10px;
   background-color: var(--light-blue);
+  transition: transform .5s ease-in-out;
+}
+
+.serviceCard:hover {
+  transform: scale(1.05);
 }

@@ -14,5 +14,5 @@ export function Logo() {
         weight="regular"
       />
     </div>
-  )
+  );
 }
