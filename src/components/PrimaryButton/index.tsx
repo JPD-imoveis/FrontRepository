@@ -1,11 +1,13 @@
+import type { ButtonProps } from "../../types/ButtonProps";
+
 import styles from "./styles.module.css";
 
-type PrimaryButtonProps = {
-  text: string;
-};
+export function PrimaryButton ({ text, width}: ButtonProps) {
+  const widthStyle: React.CSSProperties = {
+    width: width,
+  }
 
-export function PrimaryButton ({ text }: PrimaryButtonProps) {
   return (
-    <button className={styles.primary}>{text}</button>
+    <button style={widthStyle} className={styles.primary}>{text}</button>
   );
 }

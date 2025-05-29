@@ -19,3 +19,15 @@ button {
   cursor: pointer;
   border: none;
 }
+
+a,
+a:visited, 
+a:link, 
+a:active {
+  text-decoration: none;
+  color: var(--light-font);
+}
+
+a:hover {
+  text-decoration: underline;
+}

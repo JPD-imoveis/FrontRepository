@@ -39,7 +39,7 @@ export function CTAHome() {
 
       mainChildren={
         <>
-          <Box displayDirection="column">
+          <Box flexDirection="column">
             <Heading
               text="A Plataforma Inteligente para Negociações Imobiliárias!"
               textColor="light"
@@ -81,12 +81,6 @@ export function CTAHome() {
               })
             }
           </Box>
-          <Paragraph
-            text="© 2025 ImobiConnect. Todos os direitos reservados."
-            paragraphAlign="center"
-            weight="regular"
-            textColor="light"
-          />
         </>
       }
     ></CTATemplate>

@@ -7,7 +7,7 @@ export function ServiceCard({ Heading, Paragraph, Icon }: ServiceCardProps) {
   return (
     <div className={styles.serviceCard}>
       
-        <Box displayDirection="column">
+        <Box flexDirection="column" alignItems="center">
           {Icon}
           {Heading}
           {Paragraph}

@@ -1,11 +1,13 @@
+import type { ButtonProps } from "../../types/ButtonProps";
+
 import styles from "./styles.module.css";
 
-type SecondaryButtonProps = {
-  text: string;
-};
+export function SecondaryButton ({ text, width }: ButtonProps) {
+  const widthStyle: React.CSSProperties = {
+    width: width
+  }
 
-export function SecondaryButton ({ text }: SecondaryButtonProps) {
   return (
-    <button className={styles.secondary}>{text}</button>
+    <button style={widthStyle} className={styles.secondary}>{text}</button>
   );
 }

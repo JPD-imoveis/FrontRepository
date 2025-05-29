@@ -4,11 +4,18 @@ import styles from './styles.module.css';
 
 type MainProps = {
   children: ReactNode;
+  flexDirection?: "column" | "row";
+  justifyContent?: "center" | "space-around" | "space-between";
 };
 
-export function Main ({ children }: MainProps) {
+export function Main ({ children, flexDirection = "row", justifyContent = "space-between"}: MainProps) {
+  const flexConfig: React.CSSProperties = {
+    flexDirection,
+    justifyContent
+  };
+
   return (
-    <main className={styles.mainContainer}>
+    <main style={flexConfig} className={styles.mainContainer}>
 
       {children}
 
