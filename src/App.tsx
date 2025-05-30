@@ -1,4 +1,4 @@
-import { CTAHome } from "./pages/CTAHome";
+import { MainRouter } from "./routers/MainRouter";
 
 import "./styles/globals.css";
 import "./styles/themes.css";
@@ -6,7 +6,7 @@ import "./styles/themes.css";
 function App() {
   return (
     <>
-      <CTAHome />
+      <MainRouter />
     </>
   );
 }

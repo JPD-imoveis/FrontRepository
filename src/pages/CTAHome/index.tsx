@@ -31,9 +31,9 @@ export function CTAHome() {
     <CTATemplate
 
       headerChildren={
-        <Box>
-          <PrimaryButton text="LOGIN" />
-          <SecondaryButton text="CADASTRE-SE" />
+        <Box alignItems="center">
+          <PrimaryButton href="/login/" text="LOGIN" />
+          <SecondaryButton href="/register/" text="CADASTRE-SE" />
         </Box>
       }
 
