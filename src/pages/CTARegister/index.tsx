@@ -1,21 +1,34 @@
 import { Box } from "../../components/Box";
 import { Heading } from "../../components/Heading";
-import { LoginForm } from "../../components/LoginForm";
+import { Link } from "../../components/Link";
 import { Main } from "../../components/Main";
-import { SecondaryButton } from "../../components/SecondaryButton";
 import { CTATemplate } from "../../templates/CTATemplate";
 
-export function CTALogin() {
+export function CTARegister() {
   return (
-
     <CTATemplate
-
-      headerChildren={
-        <Box alignItems="center">
-          <SecondaryButton text="CADASTRE-SE" href="/register/"/>
-        </Box>
-      }
-
+      headerChildren={<Box alignItems="center">
+        <Link 
+          text="Comprador"
+          href="/buyer/"
+          textColor="dark"
+        />
+        <Link 
+          text="Vendedor"
+          href="/buyer/"
+          textColor="dark"
+        />
+        <Link 
+          text="Corretor"
+          href="/buyer/"
+          textColor="dark"
+        />
+        <Link 
+          text="Imobiliária"
+          href="/buyer/"
+          textColor="dark"
+        />
+      </Box>}
       mainChildren={
         <>
           <Main>
@@ -32,13 +45,15 @@ export function CTALogin() {
               />
             </Box>
             <Box>
-              <LoginForm />
+              <Heading 
+                text="Form aqui"
+                textColor="light"
+              />
             </Box>
           </Main>
         </>
       }>
 
     </CTATemplate>
-
-  );
+  )
 }

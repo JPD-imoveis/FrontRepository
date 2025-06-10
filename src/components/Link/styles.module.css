@@ -1,0 +1,30 @@
+.link,
+.link:visited,
+.link:active,
+.link:link {
+  font-size: 16px;
+  position: relative;
+}
+
+.link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--primary-yellow);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width .3s ease-in-out;
+}
+
+.link:hover::after {
+  width: 50%;
+}
+
+.dark {
+  color: var(--dark-font);
+}
+
+.light {
+  color: var(--light-font);
+}

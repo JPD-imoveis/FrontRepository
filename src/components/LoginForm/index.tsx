@@ -1,5 +1,6 @@
 import { FormInput } from "../FormInput";
 import { PrimaryButton } from "../PrimaryButton";
+import { RouterLink } from "../RouterLink";
 import { SecondaryButton } from "../SecondaryButton";
 
 import styles from "./styles.module.css";
@@ -31,7 +32,7 @@ export function LoginForm () {
           />
         </div>
         <div className={styles.formRow}>
-          <a href="/">Não tem uma conta?</a>
+          <RouterLink href="/register/">Não tem uma conta?</RouterLink>
         </div>
         <div className={styles.formRow}>
           <SecondaryButton 
